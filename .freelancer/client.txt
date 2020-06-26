@@ -1,0 +1,7 @@
+URL: https://www.freelancer.com/projects/nodejs/Node-API-requests-application/details
+
+Title: Node JS API requests in application
+
+Description:
+
+I have an app which will be installed on a user's device. The user will have a license key which they will receive upon purchasing the software. When opening the application for the first time, they must be asked to enter the license key they received. Then the application must send a request to the API via an Authorization header with a Bearer token, containing the key, the user's hardware id and device name. This binds the key to this device. Message received back from API will be as a JSON and needs to be handled correctly - error or success message displayed in console. An activation token is returned as well, the app should store this in a json file, for use the next time that the user loads up the program. When a user who has already activated before tries to open the app again, it should send a request to the API checking that the activation token currently stored is still active. The user also needs to be able to delete an activation so that the license key is free again and can be changed devices. PLEASE NOTE I HAVE EXAMPLE RESPONSES FROM THE API, AND I LITERALLY HAVE TEMPLATES FOR THE CODE TO BE SENT.
