@@ -8,13 +8,13 @@ async function start() {
   console.log("Confidential! Sussh ...");
 
   // Access the user
-  // console.log("User:", license.activation.user);
+  // console.log("User:", license["activation"]["user"]);
 
   // Access the entire activation object
-  // console.log("Activation", license.activation);
+  // console.log("Activation", license["activation"]);
 
   // To delete your application simply call this anywhere.
-  //   await license.delete();
+  // await license.delete();
 }
 
 start();

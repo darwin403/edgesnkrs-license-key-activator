@@ -42,6 +42,12 @@ async function start() {
 start();
 ```
 
+# Features
+
+- `await license.delete()` - Deletes an activation token locally and on the API.
+- `license['activation']` - Returns the entire activation response as a JSON object.
+- `license['activation']['user']` - Returns the entire user response as a JSON object.
+
 # Future
 
 - What response is received if a valid token is sent after the renewal period?
