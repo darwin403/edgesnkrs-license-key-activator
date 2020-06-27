@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "131cd207-fe20-4935-b484-c1f7c35e5fa2",
+		"name": "edgesnkrs.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Activation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer ak_7soZNKKTiCsXDBvZMW_y",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"key\": \"2919E-1B33A-74DEC-9D270\",\n    \"activation\": {\n        \"hwid\": \"11392i39291\",\n        \"device_name\": \"skdcodes\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.edgesnkrs.com/api/v1/activations",
+					"protocol": "https",
+					"host": [
+						"www",
+						"edgesnkrs",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"activations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Activation",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer ak_7soZNKKTiCsXDBvZMW_y",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://www.edgesnkrs.com/api/v1/activations/DdYtneQ2uKyxsfvpsSW2",
+					"protocol": "https",
+					"host": [
+						"www",
+						"edgesnkrs",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"activations",
+						"DdYtneQ2uKyxsfvpsSW2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Activation",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer ak_7soZNKKTiCsXDBvZMW_y",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://www.edgesnkrs.com/api/v1/activations/VEnwxCpN69yPzTvkBrbw",
+					"protocol": "https",
+					"host": [
+						"www",
+						"edgesnkrs",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"activations",
+						"VEnwxCpN69yPzTvkBrbw"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -5,7 +5,7 @@ async function start() {
   await license.validate();
 
   // This is only accessible after verification
-  console.log("Confidential! Sussh ...");
+  // console.log("Confidential! Sussh ...");
 
   // Access the user
   // console.log("User:", license["activation"]["user"]);
